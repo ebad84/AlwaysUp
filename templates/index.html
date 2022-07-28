@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Table 09</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="/static/css/style.css">
+
+	</head>
+	<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="table-wrap">
+						<table class="table table-striped">
+						  <thead>
+						    <tr>
+						      <th>Username</th>
+						      <th>Website</th>
+						      <th>Updates till now</th>
+						      <th>Action</th>
+						    </tr>
+						  </thead>
+						  <tbody>
+							{% for app in applications %}
+						    <tr>
+						      <th scope="row">{{ app["uname"] }}</th>
+						      <td>{{ app["link"] }}</td>
+						      <td>{{ app["updates"] }}</td>
+						      <td><a href='https://{{ app["link"] }}' class="btn btn-warning">View</a><a href="#" class="btn btn-info">GitHub</a></td>
+						    </tr>
+							{% endfor %}
+						  </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script> -->
+
+	</body>
+</html>
+
