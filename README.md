@@ -1,7 +1,10 @@
 # AlwaysUp
 this repo makes your "Free pythonanywhere.com web projects" Always, Up!
+
 ## _My Free Projects have turned of after 3monthes. what should i do?_
+
 WHAT THE HELL???
+
 ![WTH](https://github.com/ebad84/AlwaysUp/blob/main/wth.png?raw=true)
 
 **Add them into AlwaysUp website!**
@@ -10,7 +13,9 @@ WHAT THE HELL???
 ## How it works?
 
 this project have made with python and flask. every 2 monthes, it sends a request in your dashboard and then your web project, will be always up.
+
 ![alt text](https://github.com/ebad84/AlwaysUp/blob/main/website.png?raw=true)
+
 - ✨Thank you  [smartm13](https://github.com/smartm13/AutoExtend_pythonanywhere/blob/master/pythonAnywhere_AutoRefresh.py) for 
 AutoExtend_pythonanywhere 
 
