@@ -1,7 +1,7 @@
 # AlwaysUp
 this repo makes your "Free pythonanywhere.com web projects" Always, Up!
 
-## _My Free Projects are disabled after every 3monthes. what should i do?_
+## _My Free Projects are disabled every 3monthes. what should i do?_
 
 WHAT THE HELL???
 
