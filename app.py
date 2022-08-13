@@ -59,6 +59,8 @@ class AlwaysUpMainClass:
 
             run_until_3month_select = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div/div[2]/div/div/div[6]/div/div/div/form/input[2]')
             run_until_3month_select.click()
+            time.sleep(5)
+            driver.close()
             return True
         except:
             return False
